@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(149, 49, 3) ;
+    margin: 0;
+    padding: 0;
+    
+}
+html{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+  
+    font-family: sans-serif;
+    font-weight: 700;
+    color:navy;
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    top: -5%;
+    left: 45%;
+    transform: translate(50px 50px);
+    animation: vaivai 15s infinite  linear;
+}
+
+div{
+    width: 99.5vw;
+    height: 95.8vh;
+    border:5px solid darkred;
+    position: relative;
+    animation: sum 15s infinite  ;
+   
+    
+
+    
+}
+
+@keyframes vaivai{
+    0%{
+
+    }
+    20%{
+         
+
+        top: 40%;
+        left: 86%;
+           
+        }
+        
+       
+
+        50%{
+            top: 88%;
+            left: 45%
+        }
+        80%{
+            top: 32%;
+            left: 0%;
+        }
+        100%{
+            top: -5%;
+            left: 45%;
+        }
+     
+    }
+
+    @keyframes sum{
+        0%{
+
+        }
+
+        20%{
+            background-color:tomato;
+        }
+
+        50%{
+            background-color: rgb(149, 49, 3);
+        }
+        80%{
+            background-color: olivedrab;
+        }
+        100%{
+            background-color: orangered;
+        }
+    }
